@@ -1,0 +1,47 @@
+.card {
+  background-color: #ecebeb;
+  .card-content {
+    padding: 0;
+    img {
+      width: 100%;
+      height: auto;
+      padding: 5px;
+    }
+    p {
+      margin: 0;
+      color: black;
+      padding: 5px;
+      font-size: 14px;
+    }
+    p.item-price-desc {
+      .price-after-discount {
+        font-weight: bold;
+        margin-right: 7px;
+      }
+      .price-without-discount {
+        color: grey;
+        margin-right: 10px;
+        -webkit-text-decoration-line: line-through; /* Safari */
+        text-decoration-line: line-through;
+      }
+      .discount {
+        color: green;
+        font-weight: bold;
+      }
+    }
+  }
+}
+.card-action {
+  padding: 10px 15px !important;
+  text-align: center;
+  border: none !important;
+  button.btn-small {
+    background: #e88e20;
+    border-radius: 20px;
+    color: black;
+    font-size: 11px;
+    text-transform: none;
+    font-weight: bold;
+    padding: 0px 12px;
+  }
+}

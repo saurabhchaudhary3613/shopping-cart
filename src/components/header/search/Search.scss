@@ -1,0 +1,32 @@
+.search-icon {
+  color: white;
+}
+
+.search-container {
+  display: inline-block;
+  height: 25px;
+  @media (min-width: 768px) {
+    margin-left: 60%;
+  }
+
+  form {
+    position: relative;
+    display: inline-flex;
+    top: -22px;
+    color: white;
+    .search-icon {
+      display: inline-block;
+      position: relative;
+      left: -22px;
+      top: -11px;
+    }
+    input {
+      display: inline-block;
+      width: 85%;
+      height: 30px !important;
+      margin: 0 !important;
+      border-bottom: 1px solid white !important;
+      color: white;
+    }
+  }
+}
