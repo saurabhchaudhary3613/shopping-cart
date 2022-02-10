@@ -46,7 +46,7 @@
   "devDependencies": {
     "concurrently": "^5.1.0",
     "json-server": "^0.15.1",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "proxy": "http://localhost:6000"
 }
